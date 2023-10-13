@@ -34,6 +34,8 @@ On the other hand, in the Cypress folder you can find pages folder. Here you wil
 │   ├─ Test-and-strategy-plan-agile.pdf
 │   ├─ Test-design.pdf
 │   └ Test-results.pdf
+├ reports
+│   ├─ rep.html
 ├ cypress.config.js
 ├ employees.html
 ├ package-lock.json
@@ -54,6 +56,10 @@ In the project you will find the other folder with the following files:
 IMPORTANT:
 There are some tests that will fail because there are errors in the website that need to be fixed according to the expected results.
 
+## Reports
+
+After running the test scenarios, you will find the 'reports' folder at the root of the project. Please open 'rep.html' to view the test execution results in more detail.
+
 ## Answer about the activity
 
 Questions number 3:
@@ -63,7 +69,7 @@ Do you agree with the acceptance criteria? What are you missing? Put one example
 ```bash
 Login:
 -The system should allow the user to log in correctly using their credentials.
--If the users credentials are incorrect I should receive an error message. Example:   The user or password is incorrect.
+-If the users credentials are incorrect I should receive an error message. Example: The user or password is incorrect.
 -After login, the user should be redirected to the home page or to a specific location.
 
 Employees List:
