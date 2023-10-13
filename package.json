@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^13.3.0",
+    "http-server": "^14.1.1"
+  },
+  "name": "ui-test-assessment",
+  "description": "At employees.html the following client requirement has been implemented:\r - The possibility to see the city of origin of the selected employees in a list.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "cy:test": "npx cypress run",
+    "server": "npx http-server -p 2000"
+  },
+  "keywords": [],
+  "author": "Nadia Viltes",
+  "license": "ISC"
+}
