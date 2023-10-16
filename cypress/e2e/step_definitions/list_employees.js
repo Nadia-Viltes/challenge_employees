@@ -8,8 +8,6 @@ When("I expand all the collapse employees in the table", () => {
 When("I select the ramdon employee", () => {
     listEmployeesPage.getRowGridEmployees().its('length').then((rowCount) => {
         const randomIndex = Math.floor(Math.random() * rowCount);
-        cy.log(`Cantidad de filas: ${rowCount}`);
-        cy.log(`Índice aleatorio: ${randomIndex}`);
         listEmployeesPage.getCheckboxByRowIndex(randomIndex).click()
     })
 });
